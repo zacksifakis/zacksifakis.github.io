@@ -1,12 +1,13 @@
-title: Zack Sifakis - Personal Website
-description: PhD Student | Researcher 
-author: Zack Sifakis
-github_username: zacksifakis # Replace with your GitHub username
-baseurl: ""
-url: "https://zacksifakis.github.io/"
-theme: jekyll-theme-minimal # You can choose other themes like minima, hacker, etc.
+title: Zack Sifakis - Personal Website # Updated
+description: PhD Student | Researcher | AI/ML # Updated
+author: Zack Sifakis # Updated
+github_username: zacksifakis # Updated
+baseurl: "" # Keep empty for username.github.io
+url: "https://zacksifakis.github.io" # Updated
+# theme: jekyll-theme-minimal # Removed theme to use custom CSS
 markdown: kramdown
 permalink: pretty
 social:
-  github: https://github.com/zacksifakis
-  twitter: https://twitter.com/zacksifakis
+  github: https://github.com/zacksifakis # Updated
+  linkedin: https://linkedin.com/in/yourprofile # Keep placeholder or update
+  twitter: https://twitter.com/YourTwitterHandle # Keep placeholder or update
