@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>{{ site.author }}</h1>
+        <p>{{ site.description }}</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#CV">CV</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a second-year PhD student in the Electrical and Computer Engineering department at the University of Wisconsin–Madison, advised by Prof. Dimitris Papailiopoulos. My research interests lie in Large Language Models, Artificial Intelligence, and Machine Learning.
+
+                Before moving to Madison, I completed my BSc and integrated MEng at the Technical University of Crete, in the ECE department. There, I worked with Prof. Aggelos Bletsas on asynchronous inference algorithms with a focus on security applications.
+                
+                </p>
+        </section>
+
+        <section id="CV">
+            <h2></h2>
+            <p></p>
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+            <p>List your publications here. You can link to PDFs or DOIs. Format them consistently (e.g., using BibTeX style).</p>
+            <ul>
+                <li>Publication 1 (Year)</li>
+                <li>Publication 2 (Year)</li>
+                <!-- Add more publications as needed -->
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Provide your contact information, such as email address, LinkedIn profile, or university contact page.</p>
+            <p>Email: zsifakis at wisc dot edu</p>
+            <!-- <p>LinkedIn: <a href="{{ site.social.linkedin }}">Your Profile</a></p> -->
+             <p>GitHub: <a href="{{ site.social.github }}">Your GitHub</a></p>
+             <p>Twitter/X: <a href="{{ site.social.twitter }}">Your Twitter</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. Powered by Jekyll & GitHub Pages.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
