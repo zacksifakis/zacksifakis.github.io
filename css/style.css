@@ -164,6 +164,26 @@ footer {
         margin-bottom: 15px; /* Add space below image when stacked */
     }
 
+    /* Add styles for #about section on smaller screens */
+    #about {
+        text-align: center; /* Keep section centered */
+    }
+
+    #about .profile-pic {
+        /* Already centered via block/auto margins in base styles */
+        /* Ensure it doesn't float or align side-by-side */
+        float: none;
+        display: block; /* Redundant but safe */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #about p {
+        text-align: center; /* Center text below image on small screens */
+        margin-left: 0; /* Reset any potential side margins */
+        margin-right: 0;
+    }
+
     .container {
         padding: 20px; /* Adjust padding for smaller screens */
         margin: 15px auto;
