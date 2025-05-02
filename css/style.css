@@ -94,9 +94,7 @@ section h2 {
 
 /* About Me Section */
 #about {
-    display: flex;
-    align-items: flex-start;
-    gap: 30px; /* Increased gap */
+    text-align: center; /* Center align the content */
 }
 
 .profile-pic {
@@ -105,11 +103,15 @@ section h2 {
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #e9ecef; /* Lighter border */
-    flex-shrink: 0;
+    margin-bottom: 20px; /* Add space below the image */
+    display: block; /* Ensure image is block level */
+    margin-left: auto; /* Center the image */
+    margin-right: auto; /* Center the image */
 }
 
 #about p {
     margin-top: 0; /* Remove default top margin from paragraph */
+    text-align: left; /* Keep paragraph text left-aligned */
 }
 
 /* Publications Section */
@@ -156,12 +158,6 @@ footer {
     nav ul li {
         display: block; /* Stack nav items vertically */
         margin: 10px 0;
-    }
-
-    #about {
-        flex-direction: column; /* Stack image and text vertically */
-        align-items: center; /* Center items when stacked */
-        text-align: center;
     }
 
     .profile-pic {
